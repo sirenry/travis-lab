@@ -2,4 +2,5 @@ language: python
 python:
  - "3.8"
 script:
- - python continuous_integration.py 
+ - python continuous_integration.py
+ - py.test test_cont_inte.py -v
