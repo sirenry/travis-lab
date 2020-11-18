@@ -22,3 +22,10 @@
 
 print('Hello world')
 print('Hola Mundo')
+
+def formula(x):
+    print(x**5)
+
+if __name__ == '__main__':
+    formula(7)
+
